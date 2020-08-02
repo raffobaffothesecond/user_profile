@@ -1,0 +1,48 @@
+
+// Overwrite Bootstrap Vars
+$light: #f9fafc;
+$white: #fefefe;
+$info: #20bab2;
+
+
+// Import Bootstrap and BootstrapVue source SCSS files
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+@import "~bootstrap/scss/mixins";
+@import "~bootstrap/scss/root";
+@import "~bootstrap/scss/reboot";
+@import "~bootstrap/scss/type";
+@import "~bootstrap/scss/grid";
+@import "~bootstrap/scss/forms";
+@import "~bootstrap/scss/buttons";
+@import "~bootstrap/scss/spinners";
+@import "~bootstrap/scss/utilities";
+@import "~bootstrap/scss/pagination";
+@import '~bootstrap-vue/src/index.scss';
+
+
+//Import fonts
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600;700&display=swap');
+
+
+body {
+
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+
+}
+.up-bg-light {
+  background-color: $light;
+}
+
+.user-list-card {
+
+  background-color: $white;
+  margin: 9px 15px;
+  box-shadow: 0 3px 4px rgba($dark,.3);
+  border-radius: 4px;
+  display: flex;
+  flex: 1;
+  padding: 0 20px;
+
+}
